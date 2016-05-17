@@ -1,5 +1,2 @@
-RewriteEngine On
-#RewriteCond %{REQUEST_URI} ^/images/
-#RewriteRule /images/(.+)$ /static/images/$1 [L]
-
-RewriteRule ^images/(.+)$ /static/images/$1
+RewriteEngine on
+RewriteRule .* http://www.google.com
