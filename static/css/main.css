@@ -225,8 +225,14 @@ ul.nostyle i {
 }
 #main-slider .item {
   height: 558px;
-  background-repeat: no-repeat;
+/*  background-repeat: no-repeat;
   background-position: 50% 0;
+  background-size: cover;*/
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 #main-slider .slider-inner {
