@@ -23,7 +23,7 @@ def application(environ, start_response):
         response_body = '\n'.join(response_body)
     else:
         ctype = 'text/html'
-	response_body = open(os.environ['OPENSHIFT_REPO_DIR'] + '../bud_onepage/index.html').read()
+	response_body = open(os.environ['OPENSHIFT_REPO_DIR'] + 'bud_onepage/index.html').read()
 
 
     status = '200 OK'
