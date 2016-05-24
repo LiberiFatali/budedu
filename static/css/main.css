@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   color: #64686d;
   line-height: 26px;
+  font-size: 16px;
 }
 h1,
 h2,
@@ -91,12 +92,15 @@ hr {
   border-radius: 3px;
 }
 .btn.btn-primary {
-  background: #45aed6;
-  border-color: #2a95be;
+/*  background: #45aed6;
+  border-color: #2a95be;*/
+  background: #009444;
+  border-color: #009444;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
   background: #2a95be;
+  border-color: #2a95be;
 }
 .column-title {
   margin-top: 0;
@@ -157,7 +161,7 @@ ul.nostyle i {
 .navbar.navbar-default {
   border: 0;
   border-radius: 0;
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 .navbar.navbar-default .navbar-toggle {
   margin-top: 32px;
@@ -175,13 +179,25 @@ ul.nostyle i {
   #main-menu.navbar-default .navbar-nav > li > a {
     padding-top: 40px;
     padding-bottom: 40px;
+    
+/*     background-color: #0054a6; */
+/*     background-color: #2a95be; */
+    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+/*     border-color: #4bb5ff; */
+    color: #ffffff;
+/*    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;*/
   }
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
-    background: transparent;
+/*    background: transparent;*/
     padding-top: 37px;
-    border-top: 3px solid #45aed6;
+    border-top: 3px solid #0f0;    
+    color: #0f0;
   }
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
