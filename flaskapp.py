@@ -8,11 +8,11 @@ def bud():
     return render_template('index.html') 
   
 @app.route('/gallery')
-def bud():    
+def bud_gallery():    
     return render_template('gallery.html') 
   
 @app.route('/charity')
-def bud():    
+def bud_charity():    
     return render_template('charity.html') 
 
 if __name__ == '__main__':
