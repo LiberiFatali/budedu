@@ -231,3 +231,8 @@ jQuery(function($) {'use strict';
 	google.maps.event.addDomListener(window, 'load', initialize_map);
 
 });
+
+// Close menu on mobile devices
+$(".navbar-nav li a").click(function(event) {
+  $(".navbar-collapse.in").collapse('hide');
+});
