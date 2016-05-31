@@ -963,7 +963,7 @@ ul.nostyle i {
 /* prettyPhoto styling for small screens */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 500px) {
-  .preview {
+  #portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
     width: 150px;
 /*     height: 36px; */
   }
